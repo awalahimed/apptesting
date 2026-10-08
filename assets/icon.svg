@@ -1,0 +1,19 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="512" cy="512" r="512" fill="#2563EB"/>
+  
+  <!-- Inner Circle for depth -->
+  <circle cx="512" cy="512" r="460" fill="#1D4ED8"/>
+  
+  <!-- MT Text -->
+  <text x="512" y="580" font-family="Arial, sans-serif" font-size="320" font-weight="bold" text-anchor="middle" fill="white">MT</text>
+  
+  <!-- Subtle gradient overlay -->
+  <defs>
+    <radialGradient id="gradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.2)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+  <circle cx="512" cy="512" r="512" fill="url(#gradient)"/>
+</svg>

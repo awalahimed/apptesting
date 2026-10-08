@@ -1,0 +1,1505 @@
+Initialized native services in: C:\Users\HP\.gradle\native
+Initialized jansi services in: C:\Users\HP\.gradle\native
+The client will now receive all logging from the daemon (pid: 19652). The daemon log file: C:\Users\HP\.gradle\daemon\8.14.3\daemon-19652.out.log
+Starting 19th build in daemon [uptime: 47 mins 57.725 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB, non-heap usage: 27% of 512 MiB]
+Using 8 worker leases.
+Now considering [C:\Users\HP\Desktop\my-truck-update\frontend-app\android, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-core\expo-module-gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-autolinking\android\expo-gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native\gradle-plugin] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('@react-native/gradle-plugin/package.json', { paths: [require.resolve('react-native/package.json')] })
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('expo-modules-autolinking/package.json', { paths: [require.resolve('expo/package.json')] })
+Successfully started process 'command 'node''
+Now considering [C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native\gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\android, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-core\expo-module-gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-autolinking\android\expo-gradle-plugin] as hierarchies to watch
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '0.5.0']
+Now considering [C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-autolinking\android\expo-gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native\gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\android, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-core\expo-module-gradle-plugin] as hierarchies to watch
+
+> Configure project :gradle-plugin
+Evaluating project ':gradle-plugin' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native\gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20', apply: false]
+
+> Configure project :gradle-plugin:react-native-gradle-plugin
+Evaluating project ':gradle-plugin:react-native-gradle-plugin' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native\gradle-plugin\react-native-gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'java-gradle-plugin']
+Build 1bcfe822-a841-4ab3-b92b-0af3315288d4 is started
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:settings-plugin
+Evaluating project ':gradle-plugin:settings-plugin' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native\gradle-plugin\settings-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'java-gradle-plugin']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:shared
+Evaluating project ':gradle-plugin:shared' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native\gradle-plugin\shared\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:shared-testutil
+Evaluating project ':gradle-plugin:shared-testutil' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native\gradle-plugin\shared-testutil\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Resolved plugin [id: 'com.facebook.react.settings']
+
+> Configure project :expo-gradle-plugin
+Evaluating project ':expo-gradle-plugin' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-autolinking\android\expo-gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20', apply: false]
+Resolved plugin [id: 'java-gradle-plugin']
+
+> Configure project :expo-gradle-plugin:expo-autolinking-plugin
+Evaluating project ':expo-gradle-plugin:expo-autolinking-plugin' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-autolinking\android\expo-gradle-plugin\expo-autolinking-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm']
+Resolved plugin [id: 'java-gradle-plugin']
+Build 1d47a31f-6061-4e39-bd76-0f9e98c0b12a is started
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :expo-gradle-plugin:expo-autolinking-plugin-shared
+Evaluating project ':expo-gradle-plugin:expo-autolinking-plugin-shared' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-autolinking\android\expo-gradle-plugin\expo-autolinking-plugin-shared\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.serialization', version: '1.9.24']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :expo-gradle-plugin:expo-autolinking-settings-plugin
+Evaluating project ':expo-gradle-plugin:expo-autolinking-settings-plugin' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-autolinking\android\expo-gradle-plugin\expo-autolinking-settings-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm']
+Resolved plugin [id: 'java-gradle-plugin']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Resolved plugin [id: 'expo-autolinking-settings']
+Resolve mutations for :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[included builds Thread 2,5,main]) started.
+Resolve mutations for :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+:gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[included builds Thread 2,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 2,5,main]) started.
+:gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 3,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 2,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :gradle-plugin:settings-plugin:pluginDescriptors (Thread[included builds Thread 2,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors (Thread[Execution worker Thread 3,5,main]) started.
+:gradle-plugin:settings-plugin:pluginDescriptors (Thread[included builds Thread 2,5,main]) started.
+Resolve mutations for :gradle-plugin:shared:compileKotlin (Thread[Execution worker,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors (Thread[Execution worker Thread 3,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin (Thread[Execution worker Thread 2,5,main]) started.
+:gradle-plugin:shared:compileKotlin (Thread[Execution worker,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:settings-plugin:pluginDescriptors' as it is up-to-date.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources (Thread[Execution worker Thread 3,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:processResources (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :gradle-plugin:settings-plugin:processResources (Thread[included builds Thread 2,5,main]) started.
+:gradle-plugin:settings-plugin:processResources (Thread[included builds Thread 2,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:processResources' as it is up-to-date.
+
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:settings-plugin:processResources' as it is up-to-date.
+
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:shared:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:shared:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle-plugin:shared:compileJava (Thread[Execution worker,5,main]) started.
+:gradle-plugin:shared:compileJava (Thread[Execution worker,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin' as it is up-to-date.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:shared:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:shared:processResources (Thread[Execution worker,5,main]) started.
+:gradle-plugin:shared:processResources (Thread[Execution worker,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+Skipping task ':gradle-plugin:shared:processResources' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:shared:classes (Thread[Execution worker,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources (Thread[Execution worker Thread 2,5,main]) started.
+:gradle-plugin:shared:classes (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+Skipping task ':gradle-plugin:shared:classes' as it has no actions.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:processResources (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :gradle-plugin:shared:jar (Thread[Execution worker Thread 3,5,main]) started.
+:gradle-plugin:shared:jar (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:processResources' as it has no source files and no previous output files.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:classes (Thread[Execution worker Thread 2,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:classes (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:classes' as it has no actions.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:jar (Thread[Execution worker Thread 2,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:jar (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:shared:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:shared:jar' as it is up-to-date.
+work action resolve shared.jar (project :gradle-plugin:shared) (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :gradle-plugin:settings-plugin:compileKotlin (Thread[Execution worker Thread 3,5,main]) started.
+:gradle-plugin:settings-plugin:compileKotlin (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin-shared:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:jar' as it is up-to-date.
+work action resolve expo-autolinking-plugin-shared-1.0.jar (project :expo-gradle-plugin:expo-autolinking-plugin-shared) (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin (Thread[Execution worker Thread 2,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:settings-plugin:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle-plugin:settings-plugin:compileJava (Thread[Execution worker Thread 3,5,main]) started.
+:gradle-plugin:settings-plugin:compileJava (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:settings-plugin:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:settings-plugin:classes (Thread[Execution worker Thread 3,5,main]) started.
+:gradle-plugin:settings-plugin:classes (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+Skipping task ':gradle-plugin:settings-plugin:classes' as it has no actions.
+Resolve mutations for :gradle-plugin:settings-plugin:jar (Thread[Execution worker Thread 3,5,main]) started.
+:gradle-plugin:settings-plugin:jar (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:settings-plugin:jar' as it is up-to-date.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin' as it is up-to-date.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava (Thread[Execution worker Thread 2,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:classes (Thread[Execution worker Thread 2,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:classes (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:classes' as it has no actions.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:jar (Thread[Execution worker Thread 2,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:jar (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:jar' as it is up-to-date.
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('expo-modules-autolinking/package.json', { paths: [require.resolve('expo/package.json')] })
+Successfully started process 'command 'node''
+Starting process 'command 'cmd''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: cmd /c node --no-warnings --eval require('expo/bin/autolinking') expo-modules-autolinking resolve --platform android --json
+Successfully started process 'command 'cmd''
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('@react-native/gradle-plugin/package.json', { paths: [require.resolve('react-native/package.json')] })
+Successfully started process 'command 'node''
+Settings evaluated using settings file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\android\settings.gradle'.
+Now considering [C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-core\expo-module-gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-autolinking\android\expo-gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native\gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\android] as hierarchies to watch
+Projects loaded. Root project using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\android\build.gradle'.
+Included projects: [root project 'MyTruck', project ':app', project ':expo', project ':expo-constants', project ':expo-modules-core', project ':lottie-react-native', project ':maplibre_maplibre-react-native', project ':react-native-async-storage_async-storage', project ':react-native-community_netinfo', project ':react-native-gesture-handler', project ':react-native-reanimated', project ':react-native-safe-area-context', project ':react-native-screens', project ':react-native-svg', project ':react-native-vector-icons', project ':react-native-webview', project ':react-native-worklets']
+Registering project ':expo-gradle-plugin' in composite build. Will substitute for module ':expo-gradle-plugin'.
+Registering project ':expo-gradle-plugin:expo-autolinking-plugin' in composite build. Will substitute for module 'expo.modules:expo-autolinking-plugin'.
+Registering project ':expo-gradle-plugin:expo-autolinking-plugin-shared' in composite build. Will substitute for module 'expo.modules:expo-autolinking-plugin-shared'.
+Registering project ':expo-gradle-plugin:expo-autolinking-settings-plugin' in composite build. Will substitute for module 'expo.modules:expo-autolinking-settings-plugin'.
+
+> Configure project :expo-module-gradle-plugin
+Evaluating project ':expo-module-gradle-plugin' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-core\expo-module-gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'java-gradle-plugin']
+Build 18fac7b7-7b71-4f94-b704-2ca26a4df0ea is started
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Registering project ':expo-module-gradle-plugin' in composite build. Will substitute for module 'expo.modules:expo-module-gradle-plugin'.
+Registering project ':gradle-plugin' in composite build. Will substitute for module ':gradle-plugin-root'.
+Registering project ':gradle-plugin:react-native-gradle-plugin' in composite build. Will substitute for module 'com.facebook.react:react-native-gradle-plugin'.
+Registering project ':gradle-plugin:settings-plugin' in composite build. Will substitute for module 'com.facebook.react:settings-plugin'.
+Registering project ':gradle-plugin:shared' in composite build. Will substitute for module 'com.facebook.react:shared'.
+Registering project ':gradle-plugin:shared-testutil' in composite build. Will substitute for module 'com.facebook.react:shared-testutil'.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+work action resolve expo-autolinking-plugin-shared-1.0.jar (project :expo-gradle-plugin:expo-autolinking-plugin-shared) (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':expo-module-gradle-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-module-gradle-plugin:pluginDescriptors' as it is up-to-date.
+
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+Caching disabled for task ':expo-module-gradle-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-module-gradle-plugin:processResources' as it is up-to-date.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:compileKotlin' as it is up-to-date.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:compileJava' as it has no source files and no previous output files.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors' as it is up-to-date.
+
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:react-native-gradle-plugin:compileKotlin' as it is up-to-date.
+other build task :gradle-plugin:react-native-gradle-plugin:compileKotlin (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:react-native-gradle-plugin:compileJava' as it has no source files and no previous output files.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:processResources' as it is up-to-date.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:classes' as it has no actions.
+
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:pluginDescriptors' as it is up-to-date.
+other build task :gradle-plugin:react-native-gradle-plugin:compileJava (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:processResources' as it is up-to-date.
+
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+Skipping task ':gradle-plugin:react-native-gradle-plugin:classes' as it has no actions.
+
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:jar' as it is up-to-date.
+work action resolve main (project :gradle-plugin:react-native-gradle-plugin) (Thread[Execution worker Thread 4,5,main]) started.
+work action resolve main (project :gradle-plugin:react-native-gradle-plugin) (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :expo-module-gradle-plugin:compileKotlin (Thread[Execution worker Thread 4,5,main]) started.
+:expo-module-gradle-plugin:compileKotlin (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':expo-module-gradle-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':expo-module-gradle-plugin:compileKotlin' as it is up-to-date.
+Resolve mutations for :expo-module-gradle-plugin:compileJava (Thread[Execution worker Thread 4,5,main]) started.
+:expo-module-gradle-plugin:compileJava (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+Skipping task ':expo-module-gradle-plugin:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :expo-module-gradle-plugin:classes (Thread[Execution worker Thread 4,5,main]) started.
+:expo-module-gradle-plugin:classes (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+Skipping task ':expo-module-gradle-plugin:classes' as it has no actions.
+Resolve mutations for :expo-module-gradle-plugin:jar (Thread[Execution worker Thread 4,5,main]) started.
+:expo-module-gradle-plugin:jar (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:jar' as it is up-to-date.
+
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+Caching disabled for task ':expo-module-gradle-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-module-gradle-plugin:jar' as it is up-to-date.
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\android\app\build.gradle'.
+Using default execution profile
+Build 514d0fec-fb8a-4656-a3e4-6baa73b752da is started
+Using Kotlin Gradle Plugin gradle85 variant
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+
+> Configure project :
+Evaluating root project 'MyTruck' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\android\build.gradle'.
+Found project 'project :expo-gradle-plugin:expo-autolinking-plugin' as substitute for module 'expo.modules:expo-autolinking-plugin'.
+Found project 'project :expo-module-gradle-plugin' as substitute for module 'expo.modules:expo-module-gradle-plugin'.
+Found project 'project :gradle-plugin:react-native-gradle-plugin' as substitute for module 'com.facebook.react:react-native-gradle-plugin'.
+Found project 'project :expo-gradle-plugin:expo-autolinking-plugin-shared' as substitute for module 'expo.modules:expo-autolinking-plugin-shared'.
+Found project 'project :gradle-plugin:react-native-gradle-plugin' as substitute for module 'com.facebook.react:react-native-gradle-plugin'.
+Found project 'project :expo-gradle-plugin:expo-autolinking-plugin-shared' as substitute for module 'expo.modules:expo-autolinking-plugin-shared'.
+Ignoring listeners of task graph ready event, as this build (:expo-gradle-plugin) has already executed work.
+Ignoring listeners of task graph ready event, as this build (:gradle-plugin) has already executed work.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[included builds,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[included builds,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[included builds Thread 3,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[included builds Thread 3,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin (Thread[included builds,5,main]) started.
+Resolve mutations for :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[included builds Thread 2,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:compileKotlin (Thread[included builds,5,main]) started.
+:expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[included builds Thread 2,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:compileKotlin (Thread[included builds Thread 3,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:compileKotlin (Thread[included builds Thread 3,5,main]) started.
+Resolve mutations for :expo-module-gradle-plugin:pluginDescriptors (Thread[included builds Thread 2,5,main]) started.
+:expo-module-gradle-plugin:pluginDescriptors (Thread[included builds Thread 2,5,main]) started.
+Resolve mutations for :expo-module-gradle-plugin:processResources (Thread[included builds Thread 2,5,main]) started.
+:expo-module-gradle-plugin:processResources (Thread[included builds Thread 2,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:compileJava (Thread[included builds,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:compileJava (Thread[included builds,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors (Thread[included builds,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors (Thread[included builds,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:processResources (Thread[included builds,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:processResources (Thread[included builds,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:compileJava (Thread[included builds Thread 3,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:compileJava (Thread[included builds Thread 3,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:pluginDescriptors (Thread[included builds Thread 3,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:classes (Thread[included builds,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:classes (Thread[included builds,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:jar (Thread[included builds,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:jar (Thread[included builds,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:pluginDescriptors (Thread[included builds Thread 3,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:processResources (Thread[included builds Thread 3,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:processResources (Thread[included builds Thread 3,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:classes (Thread[included builds Thread 3,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:classes (Thread[included builds Thread 3,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:jar (Thread[included builds Thread 3,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:jar (Thread[included builds Thread 3,5,main]) started.
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m36.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m36[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.1.20[0m
+  - ksp:         [32m2.1.20-2.0.1[0m
+
+> Configure project :expo-constants
+Evaluating project ':expo-constants' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-constants\android\build.gradle'.
+Resolved plugin [id: 'com.android.library']
+Resolved plugin [id: 'expo-module-gradle-plugin']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-constants\android Command: node -e console.log(require('path').dirname(require.resolve('expo-constants/package.json')));
+Successfully started process 'command 'node''
+
+> Configure project :expo-modules-core
+Evaluating project ':expo-modules-core' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-core\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+
+> Configure project :expo
+Evaluating project ':expo' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+
+Using expo modules
+  - [32mexpo-constants[0m (18.0.14)
+  - [32mexpo-modules-core[0m (3.0.30)
+  - [33m[?][0m [32mexpo-application[0m (7.0.8)
+  - [33m[?][0m [32mexpo-asset[0m (12.0.13)
+  - [33m[?][0m [32mexpo-clipboard[0m (8.0.8)
+  - [33m[?][0m [32mexpo-file-system[0m (19.0.24)
+  - [33m[?][0m [32mexpo-font[0m (14.0.12)
+  - [33m[?][0m [32mexpo-haptics[0m (15.0.8)
+  - [33m[?][0m [32mexpo-image[0m (3.0.11)
+  - [33m[?][0m [32mexpo-image-loader[0m (6.0.0)
+  - [33m[?][0m [32mexpo-image-picker[0m (17.0.11)
+  - [33m[?][0m [32mexpo-keep-awake[0m (15.0.8)
+  - [33m[?][0m [32mexpo-linear-gradient[0m (15.0.8)
+  - [33m[?][0m [32mexpo-linking[0m (8.0.12)
+  - [33m[?][0m [32mexpo-location[0m (19.0.8)
+  - [33m[?][0m [32mexpo-maps[0m (0.12.10)
+  - [33m[?][0m [32mexpo-notifications[0m (0.32.17)
+  - [33m[?][0m [32mexpo-secure-store[0m (15.0.8)
+  - [33m[?][0m [32mexpo-splash-screen[0m (31.0.13)
+  - [33m[?][0m [32mexpo-system-ui[0m (6.0.9)
+  - [33m[?][0m [32mexpo-web-browser[0m (15.0.11)
+
+
+> Configure project :lottie-react-native
+Evaluating project ':lottie-react-native' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\lottie-react-native\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+
+> Configure project :maplibre_maplibre-react-native
+Evaluating project ':maplibre_maplibre-react-native' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@maplibre\maplibre-react-native\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+
+> Configure project :react-native-async-storage_async-storage
+Evaluating project ':react-native-async-storage_async-storage' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native-async-storage\async-storage\android\build.gradle'.
+Using default execution profile
+[AsyncStorage] Config used: {kotlinVersion=2.1.20, kspVersion=1.9.24-1.0.20, roomVersion=2.6.1, minSdkVersion=24, targetSdkVersion=36, compileSdkVersion=36, useNextStorage=false, databaseSizeMB=6, isNewArchitectureEnabled=true, useDedicatedExecutor=false}
+
+> Configure project :react-native-community_netinfo
+Evaluating project ':react-native-community_netinfo' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native-community\netinfo\android\build.gradle'.
+Using default execution profile
+
+> Configure project :react-native-gesture-handler
+Evaluating project ':react-native-gesture-handler' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\react-native-gesture-handler\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+
+> Configure project :react-native-worklets
+Evaluating project ':react-native-worklets' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\react-native-worklets\android\build.gradle'.
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Using default execution profile
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+
+> Configure project :react-native-reanimated
+Evaluating project ':react-native-reanimated' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\react-native-reanimated\android\build.gradle'.
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native-worklets/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Using default execution profile
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+
+> Configure project :react-native-safe-area-context
+Evaluating project ':react-native-safe-area-context' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\react-native-safe-area-context\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+
+> Configure project :react-native-screens
+Evaluating project ':react-native-screens' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\react-native-screens\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Android\Sdk
+
+> Configure project :react-native-svg
+Evaluating project ':react-native-svg' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\react-native-svg\android\build.gradle'.
+Using default execution profile
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\Users\HP\Desktop\my-truck-update\frontend-app\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+
+> Configure project :react-native-vector-icons
+Evaluating project ':react-native-vector-icons' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\react-native-vector-icons\android\build.gradle'.
+Using default execution profile
+
+> Configure project :react-native-webview
+Evaluating project ':react-native-webview' using build file 'C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\react-native-webview\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+All projects evaluated.
+Task path 'app:dependencies' matched project ':app'
+Task name matched 'dependencies'
+Selected primary task 'dependencies' from project :app
+Tasks to be executed: [task ':app:dependencies']
+Tasks that were excluded: []
+Resolve mutations for :app:dependencies (Thread[Execution worker Thread 3,5,main]) started.
+:app:dependencies (Thread[included builds Thread 2,5,main]) started.
+
+> Task :app:dependencies
+Caching disabled for task ':app:dependencies' because:
+  Build cache is disabled
+Task ':app:dependencies' is not up-to-date because:
+  Task is untracked because: Uses the whole project state as an input
+
+------------------------------------------------------------
+Project ':app'
+------------------------------------------------------------
+
+debugCompileClasspath - Compile classpath for '/debug'.
++--- org.jetbrains.kotlin:kotlin-stdlib:2.1.20
+|    +--- org.jetbrains:annotations:13.0 -> 23.0.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> 1.8.22 (c)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> 2.1.20 (c)
++--- project :maplibre_maplibre-react-native
++--- project :react-native-async-storage_async-storage
++--- project :react-native-community_netinfo
++--- project :expo
+|    +--- project :expo-constants
+|    |    \--- androidx.annotation:annotation:1.0.0 -> 1.9.1
+|    |         \--- androidx.annotation:annotation-jvm:1.9.1
+|    |              \--- org.jetbrains.kotlin:kotlin-stdlib:1.9.24 -> 2.1.20 (*)
+|    +--- project :expo-modules-core
+|    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3 -> 1.10.1
+|    |    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.1
+|    |    |         +--- org.jetbrains:annotations:23.0.0
+|    |    |         +--- org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.1
+|    |    |         |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1 (c)
+|    |    |         |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.1 (c)
+|    |    |         |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1 (c)
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:2.1.0 -> 2.1.20 (*)
+|    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3 -> 1.10.1
+|    |    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1 (*)
+|    |    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.1 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.1.0 -> 2.1.20 (*)
+|    |    \--- androidx.core:core-ktx:1.13.1 -> 1.16.0
+|    |         +--- androidx.annotation:annotation:1.8.1 -> 1.9.1 (*)
+|    |         +--- androidx.core:core:1.16.0
+|    |         |    +--- androidx.annotation:annotation:1.8.1 -> 1.9.1 (*)
+|    |         |    +--- androidx.annotation:annotation-experimental:1.4.1
+|    |         |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.7.10 -> 2.1.20 (*)
+|    |         |    +--- androidx.core:core-viewtree:1.0.0
+|    |         |    |    +--- org.jetbrains.kotlin:kotlin-stdlib -> 2.1.20 (*)
+|    |         |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (c)
+|    |         |    +--- androidx.lifecycle:lifecycle-runtime:2.6.2 -> 2.8.7
+|    |         |    |    \--- androidx.lifecycle:lifecycle-runtime-android:2.8.7
+|    |         |    |         +--- androidx.annotation:annotation:1.8.0 -> 1.9.1 (*)
+|    |         |    |         +--- androidx.arch.core:core-common:2.2.0
+|    |         |    |         |    \--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |         |    |         +--- androidx.lifecycle:lifecycle-common:2.8.7
+|    |         |    |         |    \--- androidx.lifecycle:lifecycle-common-jvm:2.8.7
+|    |         |    |         |         +--- androidx.annotation:annotation:1.8.1 -> 1.9.1 (*)
+|    |         |    |         |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+|    |         |    |         |         +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3 -> 1.10.1 (*)
+|    |         |    |         |         +--- androidx.lifecycle:lifecycle-livedata:2.8.7 (c)
+|    |         |    |         |         +--- androidx.lifecycle:lifecycle-livedata-core:2.8.7 (c)
+|    |         |    |         |         +--- androidx.lifecycle:lifecycle-runtime:2.8.7 (c)
+|    |         |    |         |         +--- androidx.lifecycle:lifecycle-viewmodel:2.8.7 (c)
+|    |         |    |         |         +--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7 (c)
+|    |         |    |         |         \--- androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7 (c)
+|    |         |    |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+|    |         |    |         +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3 -> 1.10.1 (*)
+|    |         |    |         +--- androidx.lifecycle:lifecycle-common:2.8.7 (c)
+|    |         |    |         +--- androidx.lifecycle:lifecycle-livedata:2.8.7 (c)
+|    |         |    |         +--- androidx.lifecycle:lifecycle-livedata-core:2.8.7 (c)
+|    |         |    |         +--- androidx.lifecycle:lifecycle-viewmodel:2.8.7 (c)
+|    |         |    |         +--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7 (c)
+|    |         |    |         \--- androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7 (c)
+|    |         |    +--- androidx.versionedparcelable:versionedparcelable:1.1.1
+|    |         |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |         |    |    \--- androidx.collection:collection:1.0.0 -> 1.4.4
+|    |         |    |         \--- androidx.collection:collection-jvm:1.4.4
+|    |         |    |              +--- androidx.annotation:annotation:1.8.1 -> 1.9.1 (*)
+|    |         |    |              \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+|    |         |    +--- org.jetbrains.kotlin:kotlin-stdlib -> 2.1.20 (*)
+|    |         |    +--- org.jspecify:jspecify:1.0.0
+|    |         |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (c)
+|    |         +--- org.jetbrains.kotlin:kotlin-stdlib -> 2.1.20 (*)
+|    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (c)
+|    +--- host.exp.exponent:expo.modules.application:7.0.8
+|    +--- expo.modules.asset:expo.modules.asset:12.0.13
+|    +--- host.exp.exponent:expo.modules.clipboard:8.0.8
+|    +--- host.exp.exponent:expo.modules.filesystem:19.0.24
+|    |    +--- commons-codec:commons-codec:1.10
+|    |    +--- commons-io:commons-io:1.4 -> 2.6
+|    |    +--- com.squareup.okhttp3:okhttp:4.9.2 -> 4.12.0
+|    |    |    +--- com.squareup.okio:okio:3.6.0 -> 3.9.1
+|    |    |    |    \--- com.squareup.okio:okio-jvm:3.9.1
+|    |    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.9.25 -> 2.1.20 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21 -> 1.8.22
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22 -> 2.1.20
+|    |    |              \--- org.jetbrains.kotlin:kotlin-stdlib:2.1.20 (*)
+|    |    +--- com.squareup.okhttp3:okhttp-urlconnection:4.9.2
+|    |    |    +--- com.squareup.okhttp3:okhttp:4.9.2 -> 4.12.0 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10 -> 1.8.22 (*)
+|    |    +--- com.squareup.okio:okio:2.9.0 -> 3.9.1 (*)
+|    |    +--- androidx.legacy:legacy-support-v4:1.0.0
+|    |    |    +--- androidx.core:core:1.0.0 -> 1.16.0 (*)
+|    |    |    +--- androidx.media:media:1.0.0
+|    |    |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    |    +--- androidx.core:core:1.0.0 -> 1.16.0 (*)
+|    |    |    |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0 -> 1.1.1 (*)
+|    |    |    +--- androidx.legacy:legacy-support-core-utils:1.0.0
+|    |    |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    |    +--- androidx.core:core:1.0.0 -> 1.16.0 (*)
+|    |    |    |    +--- androidx.documentfile:documentfile:1.0.0 -> 1.1.0
+|    |    |    |    |    \--- org.jspecify:jspecify:1.0.0
+|    |    |    |    +--- androidx.loader:loader:1.0.0
+|    |    |    |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    |    |    +--- androidx.core:core:1.0.0 -> 1.16.0 (*)
+|    |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata:2.0.0 -> 2.8.7
+|    |    |    |    |    |    +--- androidx.arch.core:core-runtime:2.2.0
+|    |    |    |    |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |    |    |    |    |    |    \--- androidx.arch.core:core-common:2.2.0 (*)
+|    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.8.7
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.8.7 (*)
+|    |    |    |    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.8.7 (c)
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-runtime:2.8.7 (c)
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.8.7 (c)
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7 (c)
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata:2.8.7 (c)
+|    |    |    |    |    |    |    \--- androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7 (c)
+|    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.8.7 (*)
+|    |    |    |    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.8.7 (c)
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata:2.8.7 (c)
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.8.7 (c)
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-runtime:2.8.7 (c)
+|    |    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.8.7 (c)
+|    |    |    |    |    |    |    \--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7 (c)
+|    |    |    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+|    |    |    |    |    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3 -> 1.10.1 (*)
+|    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.8.7 (c)
+|    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.8.7 (c)
+|    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7 (c)
+|    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-runtime:2.8.7 (c)
+|    |    |    |    |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.8.7 (c)
+|    |    |    |    |    |    \--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7 (c)
+|    |    |    |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0 -> 2.8.7
+|    |    |    |    |         \--- androidx.lifecycle:lifecycle-viewmodel-android:2.8.7
+|    |    |    |    |              +--- androidx.annotation:annotation:1.8.0 -> 1.9.1 (*)
+|    |    |    |    |              +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+|    |    |    |    |              +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3 -> 1.10.1 (*)
+|    |    |    |    |              +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3 -> 1.10.1 (*)
+|    |    |    |    |              +--- androidx.lifecycle:lifecycle-common:2.8.7 (c)
+|    |    |    |    |              +--- androidx.lifecycle:lifecycle-livedata:2.8.7 (c)
+|    |    |    |    |              +--- androidx.lifecycle:lifecycle-livedata-core:2.8.7 (c)
+|    |    |    |    |              +--- androidx.lifecycle:lifecycle-runtime:2.8.7 (c)
+|    |    |    |    |              +--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7 (c)
+|    |    |    |    |              \--- androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7 (c)
+|    |    |    |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
+|    |    |    |    |    \--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    |    \--- androidx.print:print:1.0.0
+|    |    |    |         \--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    +--- androidx.legacy:legacy-support-core-ui:1.0.0
+|    |    |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    |    +--- androidx.core:core:1.0.0 -> 1.16.0 (*)
+|    |    |    |    +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|    |    |    |    +--- androidx.customview:customview:1.0.0 -> 1.1.0
+|    |    |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |    |    |    |    \--- androidx.core:core:1.3.0 -> 1.16.0 (*)
+|    |    |    |    +--- androidx.viewpager:viewpager:1.0.0
+|    |    |    |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    |    |    +--- androidx.core:core:1.0.0 -> 1.16.0 (*)
+|    |    |    |    |    \--- androidx.customview:customview:1.0.0 -> 1.1.0 (*)
+|    |    |    |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0 -> 1.2.0
+|    |    |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |    |    |    |    +--- androidx.core:core:1.3.0 -> 1.16.0 (*)
+|    |    |    |    |    \--- androidx.customview:customview:1.0.0 -> 1.1.0 (*)
+|    |    |    |    +--- androidx.drawerlayout:drawerlayout:1.0.0 -> 1.1.1
+|    |    |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |    |    |    |    +--- androidx.core:core:1.2.0 -> 1.16.0 (*)
+|    |    |    |    |    \--- androidx.customview:customview:1.1.0 (*)
+|    |    |    |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0
+|    |    |    |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    |    |    +--- androidx.core:core:1.0.0 -> 1.16.0 (*)
+|    |    |    |    |    \--- androidx.customview:customview:1.0.0 -> 1.1.0 (*)
+|    |    |    |    +--- androidx.interpolator:interpolator:1.0.0
+|    |    |    |    |    \--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0 -> 1.1.0
+|    |    |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |    |    |    |    +--- androidx.core:core:1.1.0 -> 1.16.0 (*)
+|    |    |    |    |    \--- androidx.interpolator:interpolator:1.0.0 (*)
+|    |    |    |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0
+|    |    |    |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    |    |    \--- androidx.core:core:1.0.0 -> 1.16.0 (*)
+|    |    |    |    \--- androidx.cursoradapter:cursoradapter:1.0.0
+|    |    |    |         \--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |    \--- androidx.fragment:fragment:1.0.0 -> 1.8.5
+|    |    |         +--- androidx.activity:activity:1.8.1 -> 1.10.0
+|    |    |         |    +--- androidx.annotation:annotation:1.8.1 -> 1.9.1 (*)
+|    |    |         |    +--- androidx.core:core-ktx:1.13.0 -> 1.16.0 (*)
+|    |    |         |    +--- androidx.lifecycle:lifecycle-common:2.6.1 -> 2.8.7 (*)
+|    |    |         |    +--- androidx.lifecycle:lifecycle-runtime:2.6.1 -> 2.8.7 (*)
+|    |    |         |    +--- androidx.lifecycle:lifecycle-viewmodel:2.6.1 -> 2.8.7 (*)
+|    |    |         |    +--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1 -> 2.8.7
+|    |    |         |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    |         |    |    +--- androidx.core:core-ktx:1.2.0 -> 1.16.0 (*)
+|    |    |         |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.8.7 (*)
+|    |    |         |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.8.7 (*)
+|    |    |         |    |    +--- androidx.savedstate:savedstate:1.2.1
+|    |    |         |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |    |         |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.10 -> 2.1.20 (*)
+|    |    |         |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+|    |    |         |    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3 -> 1.10.1 (*)
+|    |    |         |    |    +--- androidx.lifecycle:lifecycle-common:2.8.7 (c)
+|    |    |         |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.8.7 (c)
+|    |    |         |    |    +--- androidx.lifecycle:lifecycle-runtime:2.8.7 (c)
+|    |    |         |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.8.7 (c)
+|    |    |         |    |    +--- androidx.lifecycle:lifecycle-livedata:2.8.7 (c)
+|    |    |         |    |    \--- androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7 (c)
+|    |    |         |    +--- androidx.savedstate:savedstate:1.2.1 (*)
+|    |    |         |    +--- org.jetbrains.kotlin:kotlin-stdlib -> 2.1.20 (*)
+|    |    |         |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (c)
+|    |    |         +--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |    |         +--- androidx.annotation:annotation-experimental:1.4.0 -> 1.4.1 (*)
+|    |    |         +--- androidx.collection:collection:1.1.0 -> 1.4.4 (*)
+|    |    |         +--- androidx.core:core-ktx:1.2.0 -> 1.16.0 (*)
+|    |    |         +--- androidx.lifecycle:lifecycle-livedata-core:2.6.1 -> 2.8.7 (*)
+|    |    |         +--- androidx.lifecycle:lifecycle-runtime:2.6.1 -> 2.8.7 (*)
+|    |    |         +--- androidx.lifecycle:lifecycle-viewmodel:2.6.1 -> 2.8.7 (*)
+|    |    |         +--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1 -> 2.8.7 (*)
+|    |    |         +--- androidx.loader:loader:1.0.0 (*)
+|    |    |         +--- androidx.savedstate:savedstate:1.2.1 (*)
+|    |    |         +--- androidx.viewpager:viewpager:1.0.0 (*)
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+|    |    \--- androidx.documentfile:documentfile:1.1.0 (*)
+|    +--- host.exp.exponent:expo.modules.font:14.0.12
+|    +--- host.exp.exponent:expo.modules.haptics:15.0.8
+|    |    \--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    +--- BareExpo:expo.modules.image:3.0.11
+|    |    +--- com.github.bumptech.glide:glide:4.16.0
+|    |    |    +--- com.github.bumptech.glide:gifdecoder:4.16.0
+|    |    |    |    \--- androidx.annotation:annotation:1.5.0 -> 1.9.1 (*)
+|    |    |    +--- com.github.bumptech.glide:disklrucache:4.16.0
+|    |    |    +--- com.github.bumptech.glide:annotations:4.16.0
+|    |    |    +--- androidx.fragment:fragment:1.3.6 -> 1.8.5 (*)
+|    |    |    +--- androidx.vectordrawable:vectordrawable-animated:1.1.0
+|    |    |    |    +--- androidx.vectordrawable:vectordrawable:1.1.0
+|    |    |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |    |    |    |    +--- androidx.core:core:1.1.0 -> 1.16.0 (*)
+|    |    |    |    |    \--- androidx.collection:collection:1.1.0 -> 1.4.4 (*)
+|    |    |    |    +--- androidx.interpolator:interpolator:1.0.0 (*)
+|    |    |    |    \--- androidx.collection:collection:1.1.0 -> 1.4.4 (*)
+|    |    |    +--- androidx.exifinterface:exifinterface:1.3.6 -> 1.3.7
+|    |    |    \--- androidx.tracing:tracing:1.0.0 -> 1.2.0
+|    |    +--- com.caverock:androidsvg-aar:1.4
+|    |    +--- com.github.bumptech.glide:okhttp3-integration:4.11.0
+|    |    |    +--- com.github.bumptech.glide:glide:4.11.0 -> 4.16.0 (*)
+|    |    |    +--- com.squareup.okhttp3:okhttp:3.9.1 -> 4.12.0 (*)
+|    |    |    \--- androidx.annotation:annotation:1.0.0 -> 1.9.1 (*)
+|    |    \--- com.squareup.okhttp3:okhttp:4.9.2 -> 4.12.0 (*)
+|    +--- host.exp.exponent:expo.modules.imageloader:6.0.0
+|    |    \--- com.github.bumptech.glide:glide:4.16.0 (*)
+|    +--- host.exp.exponent:expo.modules.imagepicker:17.0.11
+|    +--- host.exp.exponent:expo.modules.keepawake:15.0.8
+|    +--- host.exp.exponent:expo.modules.lineargradient:15.0.8
+|    +--- host.exp.exponent:expo.modules.linking:8.0.12
+|    +--- host.exp.exponent:expo.modules.location:19.0.8
+|    |    \--- com.google.android.gms:play-services-location:21.0.1
+|    |         +--- com.google.android.gms:play-services-base:18.1.0 -> 18.5.0
+|    |         |    +--- androidx.collection:collection:1.0.0 -> 1.4.4 (*)
+|    |         |    +--- androidx.core:core:1.2.0 -> 1.16.0 (*)
+|    |         |    +--- androidx.fragment:fragment:1.0.0 -> 1.8.5 (*)
+|    |         |    +--- com.google.android.gms:play-services-basement:18.4.0
+|    |         |    |    +--- androidx.collection:collection:1.0.0 -> 1.4.4 (*)
+|    |         |    |    +--- androidx.core:core:1.2.0 -> 1.16.0 (*)
+|    |         |    |    \--- androidx.fragment:fragment:1.1.0 -> 1.8.5 (*)
+|    |         |    \--- com.google.android.gms:play-services-tasks:18.2.0
+|    |         |         \--- com.google.android.gms:play-services-basement:18.4.0 (*)
+|    |         +--- com.google.android.gms:play-services-basement:18.1.0 -> 18.4.0 (*)
+|    |         \--- com.google.android.gms:play-services-tasks:18.0.2 -> 18.2.0 (*)
+|    +--- host.exp.exponent:expo.modules.maps:0.12.10
+|    +--- host.exp.exponent:expo.modules.notifications:0.32.17
+|    +--- host.exp.exponent:expo.modules.securestore:15.0.8
+|    |    \--- androidx.biometric:biometric:1.1.0
+|    |         +--- androidx.annotation:annotation:1.1.0 -> 1.9.1 (*)
+|    |         +--- androidx.core:core:1.3.2 -> 1.16.0 (*)
+|    |         \--- androidx.fragment:fragment:1.2.5 -> 1.8.5 (*)
+|    +--- host.exp.exponent:expo.modules.splashscreen:31.0.13
+|    +--- host.exp.exponent:expo.modules.systemui:6.0.9
+|    \--- host.exp.exponent:expo.modules.webbrowser:15.0.11
+|         \--- androidx.browser:browser:1.6.0
+|              +--- androidx.annotation:annotation:1.2.0 -> 1.9.1 (*)
+|              +--- androidx.core:core:1.1.0 -> 1.16.0 (*)
+|              \--- com.google.guava:listenablefuture:1.0 -> 9999.0-empty-to-avoid-conflict-with-guava
++--- project :lottie-react-native
++--- project :react-native-gesture-handler
++--- project :react-native-reanimated
++--- project :react-native-safe-area-context
++--- project :react-native-screens
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:2.1.20 (*)
++--- project :react-native-svg
++--- project :react-native-webview
++--- project :react-native-worklets
++--- project :react-native-vector-icons
++--- com.facebook.react:react-android -> 0.81.5
+|    +--- androidx.appcompat:appcompat:1.7.0
+|    |    +--- androidx.activity:activity:1.7.0 -> 1.10.0 (*)
+|    |    +--- androidx.annotation:annotation:1.3.0 -> 1.9.1 (*)
+|    |    +--- androidx.appcompat:appcompat-resources:1.7.0
+|    |    |    +--- androidx.annotation:annotation:1.2.0 -> 1.9.1 (*)
+|    |    |    +--- androidx.core:core:1.6.0 -> 1.16.0 (*)
+|    |    |    +--- androidx.vectordrawable:vectordrawable:1.1.0 (*)
+|    |    |    +--- androidx.vectordrawable:vectordrawable-animated:1.1.0 (*)
+|    |    |    \--- androidx.appcompat:appcompat:1.7.0 (c)
+|    |    +--- androidx.core:core:1.13.0 -> 1.16.0 (*)
+|    |    +--- androidx.cursoradapter:cursoradapter:1.0.0 (*)
+|    |    +--- androidx.drawerlayout:drawerlayout:1.0.0 -> 1.1.1 (*)
+|    |    +--- androidx.fragment:fragment:1.5.4 -> 1.8.5 (*)
+|    |    +--- androidx.savedstate:savedstate:1.2.1 (*)
+|    |    \--- androidx.appcompat:appcompat-resources:1.7.0 (c)
+|    +--- androidx.appcompat:appcompat-resources:1.7.0 (*)
+|    +--- androidx.autofill:autofill:1.1.0
+|    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.1.0 (*)
+|    +--- androidx.tracing:tracing:1.1.0 -> 1.2.0
+|    +--- com.facebook.fbjni:fbjni:0.7.0
+|    +--- com.facebook.fresco:fresco:3.6.0
+|    |    +--- com.facebook.fresco:fbcore:3.6.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.0 -> 2.1.20 (*)
+|    |    +--- com.facebook.fresco:drawee:3.6.0
+|    |    |    +--- com.facebook.fresco:ui-core:3.6.0
+|    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.0 -> 2.1.20 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.0 -> 2.1.20 (*)
+|    |    +--- com.facebook.fresco:imagepipeline:3.6.0
+|    |    |    \--- com.facebook.fresco:imagepipeline-base:3.6.0
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.0 -> 2.1.20 (*)
+|    |    +--- com.facebook.fresco:imagepipeline-native:3.6.0
+|    |    +--- com.facebook.fresco:memory-type-ashmem:3.6.0
+|    |    +--- com.facebook.fresco:memory-type-native:3.6.0
+|    |    +--- com.facebook.fresco:memory-type-java:3.6.0
+|    |    +--- com.facebook.fresco:nativeimagefilters:3.6.0
+|    |    +--- com.facebook.fresco:nativeimagetranscoder:3.6.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.0 -> 2.1.20 (*)
+|    +--- com.facebook.fresco:imagepipeline-okhttp3:3.6.0
+|    |    +--- com.squareup.okhttp3:okhttp:3.14.9 -> 4.12.0 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.0 -> 2.1.20 (*)
+|    +--- com.facebook.fresco:middleware:3.6.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.0 -> 2.1.20 (*)
+|    +--- com.facebook.fresco:ui-common:3.6.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.0 -> 2.1.20 (*)
+|    +--- com.facebook.infer.annotation:infer-annotation:0.18.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1 -> 3.0.2
+|    |    \--- org.jetbrains.kotlin:kotlin-annotations-jvm:1.3.72
+|    +--- com.facebook.soloader:soloader:0.12.1
+|    |    +--- com.facebook.soloader:annotation:0.12.1
+|    |    \--- com.facebook.soloader:nativeloader:0.12.1
+|    +--- com.facebook.yoga:proguard-annotations:1.19.0
+|    +--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- com.squareup.okhttp3:okhttp-urlconnection:4.9.2 (*)
+|    +--- com.squareup.okhttp3:okhttp:4.9.2 -> 4.12.0 (*)
+|    +--- com.squareup.okio:okio:2.9.0 -> 3.9.1 (*)
+|    +--- javax.inject:javax.inject:1
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:2.1.20 (*)
++--- com.facebook.fresco:animated-gif:3.6.0
++--- com.facebook.fresco:webpsupport:3.6.0
++--- com.facebook.react:hermes-android -> 0.81.5
++--- org.jetbrains.kotlin:kotlin-stdlib:{strictly 2.1.20} -> 2.1.20 (c)
++--- com.facebook.react:react-android:{strictly 0.81.5} -> 0.81.5 (c)
++--- com.facebook.react:hermes-android:{strictly 0.81.5} -> 0.81.5 (c)
++--- com.facebook.fresco:animated-gif:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:webpsupport:{strictly 3.6.0} -> 3.6.0 (c)
++--- org.jetbrains:annotations:{strictly 23.0.0} -> 23.0.0 (c)
++--- host.exp.exponent:expo.modules.application:{strictly 7.0.8} -> 7.0.8 (c)
++--- expo.modules.asset:expo.modules.asset:{strictly 12.0.13} -> 12.0.13 (c)
++--- host.exp.exponent:expo.modules.clipboard:{strictly 8.0.8} -> 8.0.8 (c)
++--- host.exp.exponent:expo.modules.filesystem:{strictly 19.0.24} -> 19.0.24 (c)
++--- host.exp.exponent:expo.modules.font:{strictly 14.0.12} -> 14.0.12 (c)
++--- host.exp.exponent:expo.modules.haptics:{strictly 15.0.8} -> 15.0.8 (c)
++--- BareExpo:expo.modules.image:{strictly 3.0.11} -> 3.0.11 (c)
++--- host.exp.exponent:expo.modules.imageloader:{strictly 6.0.0} -> 6.0.0 (c)
++--- host.exp.exponent:expo.modules.imagepicker:{strictly 17.0.11} -> 17.0.11 (c)
++--- host.exp.exponent:expo.modules.keepawake:{strictly 15.0.8} -> 15.0.8 (c)
++--- host.exp.exponent:expo.modules.lineargradient:{strictly 15.0.8} -> 15.0.8 (c)
++--- host.exp.exponent:expo.modules.linking:{strictly 8.0.12} -> 8.0.12 (c)
++--- host.exp.exponent:expo.modules.location:{strictly 19.0.8} -> 19.0.8 (c)
++--- host.exp.exponent:expo.modules.maps:{strictly 0.12.10} -> 0.12.10 (c)
++--- host.exp.exponent:expo.modules.notifications:{strictly 0.32.17} -> 0.32.17 (c)
++--- host.exp.exponent:expo.modules.securestore:{strictly 15.0.8} -> 15.0.8 (c)
++--- host.exp.exponent:expo.modules.splashscreen:{strictly 31.0.13} -> 31.0.13 (c)
++--- host.exp.exponent:expo.modules.systemui:{strictly 6.0.9} -> 6.0.9 (c)
++--- host.exp.exponent:expo.modules.webbrowser:{strictly 15.0.11} -> 15.0.11 (c)
++--- androidx.appcompat:appcompat:{strictly 1.7.0} -> 1.7.0 (c)
++--- androidx.appcompat:appcompat-resources:{strictly 1.7.0} -> 1.7.0 (c)
++--- androidx.autofill:autofill:{strictly 1.1.0} -> 1.1.0 (c)
++--- androidx.swiperefreshlayout:swiperefreshlayout:{strictly 1.1.0} -> 1.1.0 (c)
++--- androidx.tracing:tracing:{strictly 1.2.0} -> 1.2.0 (c)
++--- com.facebook.fbjni:fbjni:{strictly 0.7.0} -> 0.7.0 (c)
++--- com.facebook.fresco:fresco:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:imagepipeline-okhttp3:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:middleware:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:ui-common:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.infer.annotation:infer-annotation:{strictly 0.18.0} -> 0.18.0 (c)
++--- com.facebook.soloader:soloader:{strictly 0.12.1} -> 0.12.1 (c)
++--- com.facebook.yoga:proguard-annotations:{strictly 1.19.0} -> 1.19.0 (c)
++--- com.google.code.findbugs:jsr305:{strictly 3.0.2} -> 3.0.2 (c)
++--- com.squareup.okhttp3:okhttp-urlconnection:{strictly 4.9.2} -> 4.9.2 (c)
++--- com.squareup.okhttp3:okhttp:{strictly 4.12.0} -> 4.12.0 (c)
++--- com.squareup.okio:okio:{strictly 3.9.1} -> 3.9.1 (c)
++--- javax.inject:javax.inject:{strictly 1} -> 1 (c)
++--- androidx.annotation:annotation:{strictly 1.9.1} -> 1.9.1 (c)
++--- org.jetbrains.kotlinx:kotlinx-coroutines-core:{strictly 1.10.1} -> 1.10.1 (c)
++--- org.jetbrains.kotlinx:kotlinx-coroutines-android:{strictly 1.10.1} -> 1.10.1 (c)
++--- androidx.core:core-ktx:{strictly 1.16.0} -> 1.16.0 (c)
++--- commons-codec:commons-codec:{strictly 1.10} -> 1.10 (c)
++--- commons-io:commons-io:{strictly 2.6} -> 2.6 (c)
++--- androidx.legacy:legacy-support-v4:{strictly 1.0.0} -> 1.0.0 (c)
++--- androidx.documentfile:documentfile:{strictly 1.1.0} -> 1.1.0 (c)
++--- com.github.bumptech.glide:glide:{strictly 4.16.0} -> 4.16.0 (c)
++--- com.caverock:androidsvg-aar:{strictly 1.4} -> 1.4 (c)
++--- com.github.bumptech.glide:okhttp3-integration:{strictly 4.11.0} -> 4.11.0 (c)
++--- com.google.android.gms:play-services-location:{strictly 21.0.1} -> 21.0.1 (c)
++--- androidx.biometric:biometric:{strictly 1.1.0} -> 1.1.0 (c)
++--- androidx.browser:browser:{strictly 1.6.0} -> 1.6.0 (c)
++--- androidx.activity:activity:{strictly 1.10.0} -> 1.10.0 (c)
++--- androidx.core:core:{strictly 1.16.0} -> 1.16.0 (c)
++--- androidx.cursoradapter:cursoradapter:{strictly 1.0.0} -> 1.0.0 (c)
++--- androidx.drawerlayout:drawerlayout:{strictly 1.1.1} -> 1.1.1 (c)
++--- androidx.fragment:fragment:{strictly 1.8.5} -> 1.8.5 (c)
++--- androidx.savedstate:savedstate:{strictly 1.2.1} -> 1.2.1 (c)
++--- androidx.vectordrawable:vectordrawable:{strictly 1.1.0} -> 1.1.0 (c)
++--- androidx.vectordrawable:vectordrawable-animated:{strictly 1.1.0} -> 1.1.0 (c)
++--- androidx.interpolator:interpolator:{strictly 1.0.0} -> 1.0.0 (c)
++--- com.facebook.fresco:fbcore:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:drawee:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:imagepipeline:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:imagepipeline-native:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:memory-type-ashmem:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:memory-type-native:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:memory-type-java:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:nativeimagefilters:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:nativeimagetranscoder:{strictly 3.6.0} -> 3.6.0 (c)
++--- org.jetbrains.kotlin:kotlin-annotations-jvm:{strictly 1.3.72} -> 1.3.72 (c)
++--- com.facebook.soloader:annotation:{strictly 0.12.1} -> 0.12.1 (c)
++--- com.facebook.soloader:nativeloader:{strictly 0.12.1} -> 0.12.1 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:{strictly 1.8.22} -> 1.8.22 (c)
++--- com.squareup.okio:okio-jvm:{strictly 3.9.1} -> 3.9.1 (c)
++--- androidx.annotation:annotation-jvm:{strictly 1.9.1} -> 1.9.1 (c)
++--- org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:{strictly 1.10.1} -> 1.10.1 (c)
++--- org.jetbrains.kotlinx:kotlinx-coroutines-bom:{strictly 1.10.1} -> 1.10.1 (c)
++--- androidx.media:media:{strictly 1.0.0} -> 1.0.0 (c)
++--- androidx.legacy:legacy-support-core-utils:{strictly 1.0.0} -> 1.0.0 (c)
++--- androidx.legacy:legacy-support-core-ui:{strictly 1.0.0} -> 1.0.0 (c)
++--- org.jspecify:jspecify:{strictly 1.0.0} -> 1.0.0 (c)
++--- com.github.bumptech.glide:gifdecoder:{strictly 4.16.0} -> 4.16.0 (c)
++--- com.github.bumptech.glide:disklrucache:{strictly 4.16.0} -> 4.16.0 (c)
++--- com.github.bumptech.glide:annotations:{strictly 4.16.0} -> 4.16.0 (c)
++--- androidx.exifinterface:exifinterface:{strictly 1.3.7} -> 1.3.7 (c)
++--- com.google.android.gms:play-services-base:{strictly 18.5.0} -> 18.5.0 (c)
++--- com.google.android.gms:play-services-basement:{strictly 18.4.0} -> 18.4.0 (c)
++--- com.google.android.gms:play-services-tasks:{strictly 18.2.0} -> 18.2.0 (c)
++--- com.google.guava:listenablefuture:{strictly 9999.0-empty-to-avoid-conflict-with-guava} -> 9999.0-empty-to-avoid-conflict-with-guava (c)
++--- androidx.lifecycle:lifecycle-common:{strictly 2.8.7} -> 2.8.7 (c)
++--- androidx.lifecycle:lifecycle-runtime:{strictly 2.8.7} -> 2.8.7 (c)
++--- androidx.lifecycle:lifecycle-viewmodel:{strictly 2.8.7} -> 2.8.7 (c)
++--- androidx.lifecycle:lifecycle-viewmodel-savedstate:{strictly 2.8.7} -> 2.8.7 (c)
++--- androidx.annotation:annotation-experimental:{strictly 1.4.1} -> 1.4.1 (c)
++--- androidx.core:core-viewtree:{strictly 1.0.0} -> 1.0.0 (c)
++--- androidx.versionedparcelable:versionedparcelable:{strictly 1.1.1} -> 1.1.1 (c)
++--- androidx.customview:customview:{strictly 1.1.0} -> 1.1.0 (c)
++--- androidx.collection:collection:{strictly 1.4.4} -> 1.4.4 (c)
++--- androidx.lifecycle:lifecycle-livedata-core:{strictly 2.8.7} -> 2.8.7 (c)
++--- androidx.loader:loader:{strictly 1.0.0} -> 1.0.0 (c)
++--- androidx.viewpager:viewpager:{strictly 1.0.0} -> 1.0.0 (c)
++--- com.facebook.fresco:ui-core:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.facebook.fresco:imagepipeline-base:{strictly 3.6.0} -> 3.6.0 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:{strictly 2.1.20} -> 2.1.20 (c)
++--- androidx.localbroadcastmanager:localbroadcastmanager:{strictly 1.0.0} -> 1.0.0 (c)
++--- androidx.print:print:{strictly 1.0.0} -> 1.0.0 (c)
++--- androidx.coordinatorlayout:coordinatorlayout:{strictly 1.2.0} -> 1.2.0 (c)
++--- androidx.slidingpanelayout:slidingpanelayout:{strictly 1.0.0} -> 1.0.0 (c)
++--- androidx.asynclayoutinflater:asynclayoutinflater:{strictly 1.0.0} -> 1.0.0 (c)
++--- androidx.lifecycle:lifecycle-common-jvm:{strictly 2.8.7} -> 2.8.7 (c)
++--- androidx.lifecycle:lifecycle-runtime-android:{strictly 2.8.7} -> 2.8.7 (c)
++--- androidx.lifecycle:lifecycle-viewmodel-android:{strictly 2.8.7} -> 2.8.7 (c)
++--- androidx.collection:collection-jvm:{strictly 1.4.4} -> 1.4.4 (c)
++--- androidx.lifecycle:lifecycle-livedata:{strictly 2.8.7} -> 2.8.7 (c)
++--- androidx.arch.core:core-common:{strictly 2.2.0} -> 2.2.0 (c)
++--- androidx.arch.core:core-runtime:{strictly 2.2.0} -> 2.2.0 (c)
+\--- androidx.lifecycle:lifecycle-livedata-core-ktx:{strictly 2.8.7} -> 2.8.7 (c)
+
+(c) - A dependency constraint, not a dependency. The dependency affected by the constraint occurs elsewhere in the tree.
+(*) - Indicates repeated occurrences of a transitive dependency subtree. Gradle expands transitive dependency subtrees only once per project; repeat occurrences only display the root of the subtree, followed by this annotation.
+
+A web-based, searchable dependency report is available by adding the --scan option.
+Build 1d47a31f-6061-4e39-bd76-0f9e98c0b12a is closed
+Build 18fac7b7-7b71-4f94-b704-2ca26a4df0ea is closed
+Build 1bcfe822-a841-4ab3-b92b-0af3315288d4 is closed
+Build 514d0fec-fb8a-4656-a3e4-6baa73b752da is closed
+
+[Incubating] Problems report is available at: file:///C:/Users/HP/Desktop/my-truck-update/frontend-app/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 7s
+25 actionable tasks: 1 executed, 24 up-to-date
+Watched directory hierarchies: [C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-core\expo-module-gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\expo-modules-autolinking\android\expo-gradle-plugin, C:\Users\HP\Desktop\my-truck-update\frontend-app\node_modules\@react-native\gradle-plugin]

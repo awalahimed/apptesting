@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "MyTruck",
+    "slug": "mytruck",
+    "owner": "kaleb123",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "frontendapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mytruck.app",
+      "icon": "./assets/icon.png",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "icon": "./assets/icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "monochromeImage": "./assets/icon.png",
+        "backgroundColor": "#10B981"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "WAKE_LOCK"
+      ],
+      "package": "com.mytruck.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        }
+      }
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "color": "#ffffff",
+          "mode": "production"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "splashScreen": false
+        }
+      ],
+      "expo-asset",
+      "@maplibre/maplibre-react-native"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "apiUrl": "https://my-track-pi3n.onrender.com",
+      "orpcUrl": "https://my-track-pi3n.onrender.com/rpc",
+      "authUrl": "https://my-track-pi3n.onrender.com/api/auth",
+      "wsUrl": "wss://my-track-pi3n.onrender.com",
+      "uploadsUrl": "https://my-track-pi3n.onrender.com/uploads",
+      "eas": {
+        "projectId": "514e0bb6-51ca-4335-af99-e56cbd1d8186"
+      }
+    }
+  }
+}
